@@ -1,0 +1,82 @@
+{
+  "ashweather_cycle_preset": {
+    "cat": "gameplay",
+    "order": 510,
+    "ctx": "tlua",
+    "onDown": "if ashWeatherMain then ashWeatherMain.cyclePreset() end",
+    "title": "Cycle Weather Preset",
+    "desc": "Moves to the next weather preset for the current map profile set"
+  },
+  "ashweather_toggle_system": {
+    "cat": "gameplay",
+    "order": 511,
+    "ctx": "tlua",
+    "onDown": "if ashWeatherMain then ashWeatherMain.toggleSystem() end",
+    "title": "Toggle Weather System",
+    "desc": "Enables or disables Dynamic Weather Survival"
+  },
+  "ashweather_activate_system": {
+    "cat": "gameplay",
+    "order": 512,
+    "ctx": "tlua",
+    "onDown": "if ashWeatherMain then ashWeatherMain.activateWeather('hotkey activate') end",
+    "title": "Activate Dynamic Weather",
+    "desc": "Starts Dynamic Weather Survival if it is currently inactive"
+  },
+  "ashweather_deactivate_system": {
+    "cat": "gameplay",
+    "order": 513,
+    "ctx": "tlua",
+    "onDown": "if ashWeatherMain then ashWeatherMain.deactivateWeather('hotkey deactivate') end",
+    "title": "Deactivate Dynamic Weather",
+    "desc": "Stops Dynamic Weather Survival and saves the current session state"
+  },
+  "ashweather_toggle_auto_cycle": {
+    "cat": "gameplay",
+    "order": 514,
+    "ctx": "tlua",
+    "onDown": "if ashWeatherMain then ashWeatherMain.toggleDynamicMode() end",
+    "title": "Toggle Dynamic Weather",
+    "desc": "Turns scheduled dynamic weather transitions on or off"
+  },
+  "ashweather_reset_environment": {
+    "cat": "gameplay",
+    "order": 515,
+    "ctx": "tlua",
+    "onDown": "if ashWeatherMain then ashWeatherMain.resetToDefault() end",
+    "title": "Reset Weather Environment",
+    "desc": "Resets the environment and hides mapped rain objects"
+  },
+  "ashweather_random_weather": {
+    "cat": "gameplay",
+    "order": 516,
+    "ctx": "tlua",
+    "onDown": "if ashWeatherMain then ashWeatherMain.triggerRandomWeather() end",
+    "title": "Trigger Random Weather",
+    "desc": "Selects a weighted random weather event for the current map"
+  },
+  "ashweather_force_storm": {
+    "cat": "gameplay",
+    "order": 517,
+    "ctx": "tlua",
+    "onDown": "if ashWeatherMain then ashWeatherMain.triggerStormNow() end",
+    "title": "Trigger Storm",
+    "desc": "Forces an immediate storm transition"
+  },
+  "ashweather_trigger_lightning": {
+    "cat": "gameplay",
+    "order": 518,
+    "ctx": "tlua",
+    "onDown": "if ashWeatherMain then ashWeatherMain.triggerLightning('manual') end",
+    "title": "Trigger Lightning Hook",
+    "desc": "Fires the Dynamic Weather Survival lightning hook for compatible effects"
+  },
+  "ashweather_trigger_lightning_strikes": {
+    "cat": "gameplay",
+    "order": 519,
+    "ctx": "tlua",
+    "onDown": "if ashWeatherMain then ashWeatherMain.triggerLightningSequence() end",
+    "title": "Trigger Lightning Strikes",
+    "desc": "Starts a short lightning strike sequence"
+  }
+}

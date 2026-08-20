@@ -1,0 +1,81 @@
+{
+  "levels": {
+    "default": {
+      "label": "Default",
+      "presetOrder": ["clear", "overcast", "foggy", "drizzle", "rain", "snow", "storm", "hail", "supercell"],
+      "profileWeights": {
+        "clear": 1,
+        "overcast": 1,
+        "foggy": 1,
+        "drizzle": 1,
+        "rain": 1,
+        "snow": 0.75,
+        "storm": 1,
+        "hail": 0.8,
+        "supercell": 0.45
+      },
+      "rainObjects": ["rain", "Rain", "rainDrops", "precipitation", "Precipitation"],
+      "lightningObjects": [],
+      "transitionMin": 18,
+      "transitionMax": 45,
+      "startupProfile": "clear"
+    },
+    "west_coast_usa": {
+      "label": "West Coast USA",
+      "presetOrder": ["clear", "overcast", "drizzle", "rain", "storm", "hail", "supercell", "clear"],
+      "profileWeights": {
+        "clear": 1.2,
+        "overcast": 1.1,
+        "foggy": 0.3,
+        "drizzle": 1.3,
+        "rain": 1.1,
+        "storm": 1.5,
+        "hail": 1,
+        "supercell": 0.75
+      },
+      "rainObjects": ["rain", "wcusaRainEmitter", "storm_rain_main"],
+      "lightningObjects": [],
+      "transitionMin": 16,
+      "transitionMax": 38,
+      "startupProfile": "overcast"
+    },
+    "italy": {
+      "label": "Italy",
+      "presetOrder": ["clear", "clear", "overcast", "drizzle", "storm", "hail", "supercell"],
+      "profileWeights": {
+        "clear": 1.6,
+        "overcast": 1,
+        "foggy": 0.2,
+        "drizzle": 0.8,
+        "rain": 0.6,
+        "storm": 0.9,
+        "hail": 0.45,
+        "supercell": 0.28
+      },
+      "rainObjects": ["rain", "italyRain", "italyStormEmitter"],
+      "lightningObjects": [],
+      "transitionMin": 20,
+      "transitionMax": 50,
+      "startupProfile": "clear"
+    },
+    "east_coast_usa": {
+      "label": "East Coast USA",
+      "presetOrder": ["foggy", "overcast", "drizzle", "rain", "storm", "hail", "supercell", "clear"],
+      "profileWeights": {
+        "clear": 0.9,
+        "overcast": 1.2,
+        "foggy": 1.5,
+        "drizzle": 1.1,
+        "rain": 1,
+        "storm": 1.2,
+        "hail": 1.1,
+        "supercell": 0.65
+      },
+      "rainObjects": ["rain", "ecusaRain", "eastCoastStormRain"],
+      "lightningObjects": [],
+      "transitionMin": 18,
+      "transitionMax": 42,
+      "startupProfile": "foggy"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "AshWeatherLightningCoronaEmitter": {
+    "name": "AshWeatherLightningCoronaEmitter",
+    "class": "ParticleEmitterData",
+    "alignDirection": [0, 0, 1],
+    "blendStyle": "ADDITIVE",
+    "ejectionOffset": 0.08,
+    "ejectionOffsetVariance": 0.35,
+    "ejectionPeriodMS": 18,
+    "ejectionVelocity": 1.8,
+    "particles": "AshWeatherLightningCoronaParticle",
+    "periodVarianceMS": 8,
+    "phiVariance": 180,
+    "softParticles": "1",
+    "softnessDistance": 1.5,
+    "thetaMax": 140,
+    "useLighting": false,
+    "velocityVariance": 1.2
+  },
+  "AshWeatherMetalSparkEmitter": {
+    "name": "AshWeatherMetalSparkEmitter",
+    "class": "ParticleEmitterData",
+    "alignDirection": [0, 0, 1],
+    "blendStyle": "ADDITIVE",
+    "ejectionOffset": 0.1,
+    "ejectionOffsetVariance": 0.16,
+    "ejectionPeriodMS": 4,
+    "ejectionVelocity": 12,
+    "orientParticles": true,
+    "particles": "AshWeatherMetalSparkParticle",
+    "periodVarianceMS": 2,
+    "phiVariance": 180,
+    "softParticles": "0",
+    "softnessDistance": 0.02,
+    "thetaMax": 132,
+    "useLighting": false,
+    "velocityVariance": 5
+  }
+}

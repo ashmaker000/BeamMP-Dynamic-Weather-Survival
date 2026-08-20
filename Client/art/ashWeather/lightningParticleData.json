@@ -1,0 +1,48 @@
+{
+  "AshWeatherLightningCoronaParticle": {
+    "name": "AshWeatherLightningCoronaParticle",
+    "class": "ParticleData",
+    "animTexName": "/art/ashWeather/lightning_corona.png",
+    "colors": [
+      [0.18, 0.58, 1, 0.96],
+      [0.72, 0.88, 1, 0.82],
+      [0.30, 0.64, 1, 0.42],
+      [0.16, 0.42, 1, 0]
+    ],
+    "dragCoefficient": 0.1,
+    "gravityCoefficient": -0.12,
+    "inheritedVelFactor": 0.15,
+    "lifetimeMS": 360,
+    "lifetimeVarianceMS": 70,
+    "sizes": [1.1, 2.2, 3.1, 0],
+    "spinRandomMax": 70,
+    "spinRandomMin": -70,
+    "spinSpeed": 7.5,
+    "textureName": "/art/ashWeather/lightning_corona.png",
+    "times": [0, 0.18, 0.68, 1],
+    "useInvAlpha": true
+  },
+  "AshWeatherMetalSparkParticle": {
+    "name": "AshWeatherMetalSparkParticle",
+    "class": "ParticleData",
+    "animTexName": "/art/ashWeather/lightning_spark.png",
+    "colors": [
+      [0.84, 0.94, 1, 1],
+      [0.34, 0.72, 1, 1],
+      [1, 0.74, 0.20, 0.82],
+      [1, 0.18, 0.02, 0]
+    ],
+    "dragCoefficient": 3.2,
+    "gravityCoefficient": 1,
+    "inheritedVelFactor": 0.8,
+    "lifetimeMS": 620,
+    "lifetimeVarianceMS": 260,
+    "sizes": [0.08, 0.11, 0.13, 0.02],
+    "spinRandomMax": 360,
+    "spinRandomMin": -360,
+    "spinSpeed": 0.5,
+    "textureName": "/art/ashWeather/lightning_spark.png",
+    "times": [0, 0.35, 0.78, 1],
+    "useInvAlpha": true
+  }
+}
