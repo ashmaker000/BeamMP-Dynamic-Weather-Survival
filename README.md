@@ -34,8 +34,6 @@ BeamNG 0.39 profile cloud coverage uses the native volumetric range rather than 
 
 ## Single-player
 
-The unpacked mod runs directly from this folder. The extension loads through `scripts/ash_weather/modScript.lua`.
-
 Single-player actions are available under `Options > Controls > Gameplay`, including activation, deactivation, preset cycling, random weather, storms, lightning, and environment reset.
 
 Open the BeamNG console, select `GE - Lua`, and load the extension if it is not already available:
